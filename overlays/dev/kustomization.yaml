@@ -6,6 +6,6 @@ images:
   newTag: 6c121bdb
 resources:
 - ../../base
-patchesStrategicMerge:
+patches:
 - back-deployment-patch.yaml
 - back-service-patch.yaml
