@@ -2,7 +2,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: django-backend
+  namespace: default
+  name: backend-service
   annotations:
     alb.ingress.kubernetes.io/healthcheck-path: "/"
 spec:
