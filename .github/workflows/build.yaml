@@ -14,6 +14,7 @@ jobs:
 
       - name: Build Kustomize
         run: |
+          kustomize edit fix
           pwd
           mkdir kustomize-build
           kustomize build ./overlays/dev > ./kustomize-build/kustomize-build-output.yaml
