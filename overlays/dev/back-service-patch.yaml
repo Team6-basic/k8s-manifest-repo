@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: django-backend
   namespace : default
-  group : apps
   annotations:
     alb.ingress.kubernetes.io/healthcheck-path: "/"
   labels:
