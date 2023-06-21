@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: django-backend
-          image: 940168446867.dkr.ecr.eu-west-3.amazonaws.com/basic-django-backend:4cf4f06e
+          image: 940168446867.dkr.ecr.eu-west-3.amazonaws.com/basic-django-backend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
