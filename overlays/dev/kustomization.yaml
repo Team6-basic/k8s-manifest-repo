@@ -3,7 +3,7 @@ kind: Kustomization
 images:
 - name: 940168446867.dkr.ecr.eu-west-3.amazonaws.com/basic-django-backend
   newName: 940168446867.dkr.ecr.eu-west-3.amazonaws.com/basic-django-backend
-  newTag: b95355a3
+  newTag: 2515ecc3
 resources:
 - ../../base
 patchesStrategicMerge:
